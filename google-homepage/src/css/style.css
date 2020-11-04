@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ input, button, a{
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
