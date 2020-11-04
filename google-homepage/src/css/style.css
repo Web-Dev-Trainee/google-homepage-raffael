@@ -4,10 +4,32 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+}
+.header a {
+    padding: 10px;
+}
+
+.header .header-icon img{
+   display: inline;
+   width: 20px;
+   height: 20px;
+}
+
  input, button, a{
     font-family: Arial, sans-serif;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
+    font-size: 13px;
 
 }
 
