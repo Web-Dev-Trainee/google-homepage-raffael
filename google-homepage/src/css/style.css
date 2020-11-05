@@ -15,14 +15,32 @@ body{
     padding: 20px;
     align-items: center;
 }
-.header a {
+.header .header-itens a {
     padding: 10px;
 }
 
-.header .header-icon img{
+.header .header-icon img {
    display: inline;
    width: 20px;
    height: 20px;
+}
+
+.header .header-profile{
+    position: relative;
+    justify-content: center;
+    align-self: center;
+}
+
+.header .header-profile .profile-pic {
+    width: 38.5px;
+    height: 38.5px;
+    border-radius: 20px;
+}
+
+.header .header-profile .profile-pic-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
  input, button, a{
